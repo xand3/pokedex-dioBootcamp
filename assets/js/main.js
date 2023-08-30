@@ -3,7 +3,6 @@ const loadMoreButton = document.querySelector("#loadMoreButton");
 const limit = 10;
 let offset = 0;
 
-
 function convertPokemonToLi(pokemon) {
   return `
     <li class="pokemon ${pokemon.type}">
@@ -20,7 +19,6 @@ function convertPokemonToLi(pokemon) {
   `;
 }
 
-
 function loadPokemonItens() {
   PokeApi.getPokemons(offset, limit).then((pokemons = []) => {
     const newHtml = pokemons.map(convertPokemonToLi).join("");
@@ -28,7 +26,7 @@ function loadPokemonItens() {
   });
 }
 
-loadPokemonItens(offset, limit)
+loadPokemonItens(offset, limit);
 
 loadMoreButton.addEventListener('click', () => {
   offset += limit;
