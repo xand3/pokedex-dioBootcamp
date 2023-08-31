@@ -9,10 +9,13 @@ body {
   background-color: #f6f8fc;
 }
 
-
 .content {
-  height: 100vh;
+  height: auto;
   width: 100vw;
   padding: 1rem;
   background-color: #fff;
+}
+
+.content h1 {
+  margin-left: 1rem;
 }
