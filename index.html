@@ -19,20 +19,35 @@
 </head>
 
 <body>
-  <section class="content">
+  <header>
     <h1>Pokedex</h1>
+  </header>
+  <main class="content">
+    <div>
+      <ol id="pokemonList" class="pokemons">
 
-    <ol id="pokemonList" class="pokemons" >
-      
-    </ol>
-    
+      </ol>
+    </div>
+
     <div class="pagination">
-      <button type="button" id="loadMoreButton" >
+      <button type="button" id="loadMoreButton">
         LOAD MORE
       </button>
     </div>
-    
-  </section>
+  </main>
+  <footer class="footer_container">
+    <div>
+      <p>&copy; Alexandre Bastos</p>
+    </div>
+    <div class="social_media">
+      <a href="https://github.com/xand3" target="_blank">
+        <img src="assets/img/github.png" alt="">
+      </a>
+      <a href="https://www.linkedin.com/in/alexandr3-bastos/" target="_blank">
+        <img src="assets/img/linkedin.png" alt="github">
+      </a>
+    </div>
+  </footer>
   <script src="assets/js/pokemon-model.js"></script>
   <script src="assets/js/poke-api.js"></script>
   <script src="assets/js/main.js"></script>
