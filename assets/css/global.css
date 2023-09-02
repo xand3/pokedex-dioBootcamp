@@ -28,7 +28,7 @@ header h1 {
 .footer_container {
   display: flex;
   justify-content: space-around;
-  margin-top: 3rem;
+  margin: 2rem;
 }
 
 .footer_container p {
