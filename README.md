@@ -9,7 +9,7 @@ Dio e o Santander.
 
 
 <p align="justify">
-  Esse projeto é uma pokedex online, mas o que é uma pokedex? é uma enciclopédia virtual que detém todas as espécies de pokémon, para a construção desse projeto utilizei a <a href="https://pokeapi.co/">PokeAPI</a>, Para capturar os dados dos pokémon e apresentar aos usuários.
+  Esse projeto é uma pokedex online, mas o que é uma pokedex? é uma enciclopédia virtual que detém todas as espécies de pokémon, para a construção desse projeto utilizei a <a href="https://pokeapi.co/">PokeAPI</a> Para capturar os dados dos pokémon e apresenta-los na página.
 No desenvolvimento desse projeto tive a oportunidade de trabalhar habilidades relacionadas ao consumo de API, e também a implementação de métodos assíncronos usando JavaScript.
 </p>
 
